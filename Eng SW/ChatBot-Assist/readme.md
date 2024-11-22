@@ -23,6 +23,7 @@ O bot recebe solicitações dos usuários pelo chat do **Telegram** e responde c
 
 ---
 
-### Visualização!
-[Exemplo de Bot](assets/imagem-bot.jpeg)
+### Visualização
+<img src="assets/imagem-bot.jpeg" alt="Exemplo de Bot" width="300">
+
 
