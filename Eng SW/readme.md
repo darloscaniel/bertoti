@@ -182,3 +182,16 @@ class CarrosTest {
 }
 
 ```
+
+###  Atividade 4 - 22/11/2024
+
+* Criar modelo UML das classes
+
+![image](assets/UMLJunitTest.png)
+
+
+###  Atividade 5 - 22/11/2024
+
+* Criar Assistente JAVA integrado com modelos de linguagem
+
+[Clique aqui para acessar o bot](https://github.com/darloscaniel/bertoti/tree/main/Eng%20SW/ChatBot-Assist)
