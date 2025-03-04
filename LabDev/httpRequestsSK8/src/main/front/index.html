@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BoardRequest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="buttonsContainer">
+            <button id="getButton">Consultar</button>
+            <button id="createButton">Criar</button>
+            <button id="editButton">Editar</button>
+            <button id="deleteButton">Apagar</button>
+        </div>
+
+        <div id="getTab" class="tab">
+            <h2>Consulta de Shape</h2>
+            <div id="listContent"></div>
+        </div>
+
+        <div id="createTab" class="tab">
+            <h2>Cadastrar Shape</h2>
+            <input type="text" id="createSize" placeholder="Tamanho">
+            <input type="text" id="createBrand" placeholder="Marca">
+            <button id="createSubmit">Cadastrar Shape</button>
+        </div>
+
+        <div id="editTab" class="tab">
+            <h2>Editar Shape</h2>
+            <select id="editSelect"></select>
+            <input type="text" id="editSize" placeholder="Tamanho">
+            <input type="text" id="editBrand" placeholder="Marca">
+            <button id="editSubmit">Confirmar Edição</button>
+        </div>
+
+        <div id="deleteTab" class="tab">
+            <h2>Deletar Shape</h2>
+            <select id="deleteSelect"></select>
+            <button id="deleteSubmit">Confirmar Deleção</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
