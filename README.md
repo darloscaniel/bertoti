@@ -7,7 +7,7 @@ This repository contains projects developed during the **Database** course at **
 The repository is divided into two main directories:  
 
 - **`EngSW`** - Projects from the **Software Engineering** classes (2nd semester).  
-- **`databaseLab-III`** - Projects from the **Database Development Lab III** classes (3rd semester).
+- **`LabDev`** - Projects from the **Database Development Lab III** classes (3rd semester).
 
   ## 📌 Software Engineering (2nd Semester)  
 
