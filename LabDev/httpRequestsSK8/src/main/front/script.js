@@ -12,11 +12,13 @@ const listContent = document.getElementById("listContent");
 
 const createBrand = document.getElementById("createBrand");
 const createSize = document.getElementById("createSize");
+const createImgUrl = document.getElementById("createImgUrl")
 const createSubmit = document.getElementById("createSubmit");
 
 const editSelect = document.getElementById("editSelect");
 const editBrand = document.getElementById("editBrand");
 const editSize = document.getElementById("editSize");
+const editImg = document.getElementById("editImg")
 const editSubmit = document.getElementById("editSubmit");
 
 const deleteSelect = document.getElementById("deleteSelect");
@@ -43,25 +45,36 @@ async function listBoards(){
     try{
         const response = await fetch("http://localhost:8080/boards");
         boards = await response.json();
-        listContent.innerHTML = "";
+        listContent.innerHTML = "";  // Limpar o conteúdo atual
+
         boards.forEach((board) => {
-            const item  = document.createElement("div");
+            const item = document.createElement("div");
             item.classList.add("board-item");
 
             const info = document.createElement("div");
             info.classList.add("board-info");
+
+            // Verificar se a imagem existe e usar a URL para exibir a imagem
+            const imageElement = document.createElement("img");
+            imageElement.src = board.imgUrl || 'default-image.jpg';  // Adicionar uma imagem padrão caso a URL não exista
+            imageElement.alt = `${board.brand} image`;
+            imageElement.classList.add("board-image");
+
+            // Adicionar a informação do board ao card
             info.innerHTML = `
              <strong>${board.brand}</strong>
              <span>tamanho: ${board.size}</span>
         `;
 
+            item.appendChild(imageElement);  // Adiciona a imagem ao card
             item.appendChild(info);
             listContent.appendChild(item);
-        })
+        });
     }catch (error){
         console.error("erro ao buscar dados: ", error)
     }
 }
+
 
 getButton.addEventListener("click", async function(){
     closeAllTabs();
@@ -81,6 +94,7 @@ createSubmit.addEventListener("click", async function(){
     const newBoard = {
         size: createSize.value,
         brand: createBrand.value,
+        imgUrl: createImgUrl.value,
     };
     try {
         const response = await fetch("http://localhost:8080/boards", {
@@ -94,6 +108,7 @@ createSubmit.addEventListener("click", async function(){
         boards.push(data);
         createBrand.value = "";
         createSize.value = "";
+        createImgUrl.value = "";
         alert("shape criado com sucesso!");
         await listBoards();
     }catch (error){
@@ -120,6 +135,7 @@ editButton.addEventListener("click", async function() {
     if (boards.length > 0) {
         editBrand.value = boards[0].brand;
         editSize.value = boards[0].size;
+        editImg.value = boards[0].imgUrl;
     }
 });
 
@@ -129,6 +145,7 @@ editSelect.addEventListener("change", function() {
     if (selectedBoard) {
         editBrand.value = selectedBoard.brand;
         editSize.value = selectedBoard.size;
+        editImg.value = selectedBoard.imgUrl;
     }
 });
 
@@ -139,6 +156,7 @@ editSubmit.addEventListener("click", async function(){
     const updatedBoard = {
         size: editSize.value,
         brand: editBrand.value,
+        imgUrl: editImg.value,
     };
 
     try{

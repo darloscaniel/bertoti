@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(183, 90, 90);
+    background-color: rgba(145, 32, 32, 0.96);
     margin: 0;
     padding: 0;
     display: flex;
@@ -14,6 +14,7 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 800px;
+    color: white;
 }
 
 #buttonsContainer {
@@ -80,36 +81,50 @@ select {
 
 #list-content {
     margin-top: 20px;
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas, cada uma com largura igual */
+    gap: 20px; /* Espaçamento entre os cards */
+    padding: 10px; /* Espaçamento ao redor dos cards */
 }
 
 .board-item {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 10px;
-    display: flex;
+    border-radius: 5px; /* Bordas arredondadas para estilo de card */
+    padding: 20px;
+    margin: 10px;
+    display: inline-grid;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 25%;
+    color: #210f0f;
 }
 
 .board-item:hover {
-    background-color: #f1f1f1;
+    transform: translateY(-10px); /* Efeito de "flutuar" ao passar o mouse */
 }
 
-.board-item span {
-    font-size: 14px;
-    color: #333;
+.board-item img {
+    max-width: 100%; /* Faz a imagem ocupar toda a largura do card */
+    width: 200px;   /* Define a largura da imagem */
+    height: 200px;  /* Define a altura da imagem */
+    object-fit: cover; /* Mantém a proporção da imagem ao recortar o excesso */
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .board-item .board-info {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    gap: 10px;
 }
 
 .board-item .board-info strong {
     font-weight: bold;
     color: #8f0013;
 }
+
+
