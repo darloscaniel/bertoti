@@ -11,7 +11,7 @@ public class Board {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String brand;
+    String brand;
     private String size;
     private String imgUrl;
 
