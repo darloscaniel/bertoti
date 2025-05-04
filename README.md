@@ -16,7 +16,6 @@ This course focused on **Java development**, with an emphasis on:
 - API requests
 - Unit testing with **JUnit**  
 - Software engineering principles and best practices
-- Systems implementation with Springboot
 
 ## 📌 Database Development Lab III (3rd Semester)  
 
@@ -24,4 +23,5 @@ This course emphasized the development of applications using **Java Spring Boot*
 
 - HTTP requests
 - Backend and Frontend application development
+- Unit testing with **Junit** in Java Spring Boot
 
