@@ -23,5 +23,5 @@ This course emphasized the development of applications using **Java Spring Boot*
 
 - HTTP requests
 - Backend and Frontend application development
-- Unit testing with **Junit** in Java Spring Boot
+- Unit testing with **JUnit** in Java Spring Boot
 
