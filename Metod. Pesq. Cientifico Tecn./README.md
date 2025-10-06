@@ -60,9 +60,9 @@ Foi entregue um sistema completo com capacidade de gerenciar os funcionarios cad
 
 #### Hard Skills
 
-- Vue.JS - 
-- Java - 
-- SpringBoot - 
+- Vue.JS - Aprendi a criar componentes reutilizáveis, criando layouts escaláveis e eficientes para a experiência do usuario. Organização de código, boas práticas e reutilização de código.
+- Java - Boas praticas de programação orientada a objetos, polimorfismo, encapsulamento, e lógica de programação.
+- SpringBoot - Criação de API Rest, implementação de Controllers, Services e Repositories. Mapeamento do banco de dados e suas entidades.
 - SQL - 
 - Git - 
 
