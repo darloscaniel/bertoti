@@ -1,0 +1,3 @@
+interface Usb {
+    void conectarUsb();
+}
