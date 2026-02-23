@@ -3,7 +3,7 @@
 ## Introdução
 Desenvolvedor Full Stack, atualmente cursando Tecnólogo em Banco de Dados na
 FATEC São José dos Campos. Tenho experiência em projetos utilizando Java, PHP,
-Laravel, Spring Boot, Vue.js, PostgreSQL, MySQL, Oracle e autenticação com JWT. Atuo com
+Laravel, Spring Boot, Vue.js, PostgreSQL, MySQL e Oracle. Atuo com
 foco em boas práticas de desenvolvimento, versionamento com Git/GitHub e qualidade
 de código.
 
@@ -52,16 +52,17 @@ Foi entregue um sistema completo com capacidade de gerenciar os funcionarios cad
 - **Git** - Ferramenta de controle de versão e colaboração em equipe, mantendo o histórico de alterações do código.
 - **GitHub** - Plataforma onde o repositório do projeto foi hospedado.
 ### Contribuições Pessoais
+### Contribuições Pessoais
 
-**Banco de Dados:**
+**Banco de Dados :**
 
 Fui responsável por toda a modelagem e estruturação do banco de dados, abrangendo:
 
-- Criação do modelo Entidade-Relacionamento (ER) para representar de forma clara as entidades, atributos e relacionamentos do sistema.
+- Criação do modelo conceitual e do modelo Entidade-Relacionamento (ER) para representar de forma clara as entidades do sistema — como Funcionários, Empresas, Cargos e Registros de Ponto — seus atributos e relacionamentos.
 
-- Implementação do “esqueleto” do banco de dados, definindo as tabelas, chaves primárias e estrangeiras, e restrições de integridade.
+- Implementação do esquema físico do banco de dados, definindo tabelas, chaves primárias e estrangeiras, e restrições de integridade necessárias para suportar as User Stories do projeto.
 
-- Manutenção evolutiva do banco, incluindo alterações estruturais (adição, remoção e modificação de colunas e relacionamentos) conforme as novas demandas do projeto.
+- Manutenção evolutiva do banco, incluindo alterações estruturais (adição, remoção e modificação de colunas e relacionamentos) conforme novas demandas surgiam ao longo das sprints.
 
 - Garantia da consistência e normalização dos dados, assegurando desempenho adequado para as operações do sistema.
 
@@ -69,31 +70,35 @@ Fui responsável por toda a modelagem e estruturação do banco de dados, abrang
 
 Atuei como Product Owner ao longo do desenvolvimento, sendo o principal ponto de contato entre a equipe técnica e o cliente. Minhas responsabilidades incluíram:
 
-- Levantamento e refinamento de requisitos junto ao cliente, convertendo as necessidades do negócio em requisitos técnicos claros e priorizados.
+- Elaboração da documentação completa da API REST utilizando Swagger, descrevendo os endpoints, parâmetros, respostas e códigos de status para facilitar a integração e o entendimento da equipe.
 
-- Criação e manutenção do Backlog do Produto, com User Stories bem definidas e priorizadas segundo o valor de negócio e complexidade técnica.
+- Levantamento e refinamento de requisitos junto ao cliente, convertendo necessidades de negócio em User Stories claras e priorizadas, como adicionar empresas e adicionar funcionários.
 
-- Definição e documentação dos critérios de DoD (Definition of Done) e DoR (Definition of Ready) para padronizar as entregas e garantir qualidade no fluxo de desenvolvimento.
+- Criação e manutenção do Backlog do Produto, com definição dos critérios de DoD (Definition of Done) e DoR (Definition of Ready) para padronizar as entregas.
 
 - Acompanhamento das sprints, ajudando a equipe a compreender o escopo e os objetivos de cada ciclo.
 
 **Front-end :**
 
-Contribuí para o desenvolvimento das interfaces administrativas do sistema, com foco na experiência do usuário e integração com a camada de negócios. As principais entregas foram:
+Contribuí para o desenvolvimento e manutenção das interfaces administrativas do sistema, com foco na experiência do usuário e integração com a camada de negócios. As principais entregas foram:
 
 - Criação das telas de Gerenciamento de Cargos e Gerenciamento de Empresas, incluindo funcionalidades de listagem, edição e exclusão de registros.
 
-- Desenvolvimento dos modais de cadastro, com tratamento de validações e feedbacks visuais ao usuário.
+- Correção do bug de edição de cargos, garantindo que a edição funcionasse corretamente em qualquer página da lista paginada, e não apenas na primeira.
 
-- Implementação de padrões visuais e estruturais visando manter consistência entre os módulos da aplicação.
+- Revisão de código front-end ao final das sprints, avaliando qualidade, padrões visuais e consistência entre os módulos da aplicação antes das entregas.
 
-- Integração com o back-end através de requisições assíncronas (AJAX / API REST) para manipulação dos dados.
+- Desenvolvimento de modais de cadastro com tratamento de validações e feedbacks visuais ao usuário.
+
+- Integração com o back-end através de requisições assíncronas (API REST) para manipulação dos dados.
 
 **Back-end :**
 
-No back-end, concentrei meus esforços tanto na qualidade do código quanto na robustez da lógica de negócio. As principais atividades realizadas foram:
+No back-end, concentrei meus esforços na implementação das funcionalidades centrais do sistema. As principais atividades realizadas foram:
 
-- Desenvolvimento do módulo de registro de ponto, abrangendo toda a lógica de armazenamento, validação e regras de negócio.
+- Desenvolvimento dos módulos de cadastro de empresas e de funcionários, permitindo ao gestor de contratos vincular funcionários a empresas e controlar seus horários de trabalho.
+
+- Implementação do módulo de registro de ponto, abrangendo toda a lógica de armazenamento, validação e regras de negócio.
 
 - Implementação de testes unitários utilizando JUnit, cobrindo as classes de Service e Controller para garantir o correto funcionamento das funcionalidades isoladas.
 
@@ -105,39 +110,32 @@ No back-end, concentrei meus esforços tanto na qualidade do código quanto na r
 
 Fui responsável pela organização e manutenção do repositório do projeto no GitHub, garantindo boas práticas de versionamento e integração contínua.
 
-- Gerenciamento de branches, adotando fluxos de trabalho padronizados (ex.: feature branches, hotfix, release).
+- Configuração do `.gitignore` do projeto, assegurando que arquivos desnecessários (builds, dependências, configs locais) não fossem versionados.
 
-- Revisão de Merge Requests, assegurando a qualidade do código antes da integração na branch principal (main).
+- Gerenciamento de branches, adotando fluxos de trabalho padronizados (feature branches, hotfix, release).
+
+- Revisão de Pull Requests e code review ao final das sprints, assegurando a qualidade do código antes da integração na branch principal.
 
 - Resolução de conflitos e controle de versões para evitar retrabalho e perda de histórico.
 
-- Padronização das mensagens de commit e acompanhamento das melhores práticas de versionamento colaborativo.
-
 ### Hard Skills
 
-- **Vue.JS** - Domínio no desenvolvimento de componentes reutilizáveis e layouts escaláveis, com foco na experiência do usuário (UX) e organização modular do código. Apliquei boas práticas de componentização, reutilização de lógica e padronização de estilos, garantindo interfaces consistentes e de fácil manutenção. Experiência na integração com APIs REST e uso de reatividade e ciclo de vida dos componentes para otimizar o desempenho da aplicação.
+- **Vue.JS** - Desenvolvimento de componentes reutilizáveis e correção de bugs em interfaces existentes, como a correção da edição de cargos em listas paginadas. Realizei code review no front-end ao final das sprints, garantindo padronização visual e consistência entre os módulos. Experiência na integração com APIs REST e uso de reatividade para otimizar a experiência do usuário.
 
-- **Java** - Aplicação consistente dos princípios da Programação Orientada a Objetos (POO), incluindo herança, polimorfismo, encapsulamento e abstração. Desenvolvimento de código limpo e estruturado, com foco em boas práticas, padronização de arquitetura e clareza na manutenção. Utilização da linguagem em conjunto com frameworks e bibliotecas modernas do ecossistema Java para construção de soluções robustas e seguras.
+- **Java** - Aplicação dos princípios da Programação Orientada a Objetos (POO) na construção dos módulos de cadastro de empresas e funcionários. Desenvolvimento de código limpo e estruturado com foco em boas práticas, padronização de arquitetura e facilidade de manutenção.
 
-- **SpringBoot** - Experiência na criação de APIs RESTful completas, desde o mapeamento de entidades até a implementação das camadas Controller, Service e Repository. Realização de integrações com o banco de dados via JPA/Hibernate, injeção de dependência, e tratamento de exceções. Configuração de testes automatizados, documentação de endpoints e aplicação de boas práticas de arquitetura em projetos back-end baseados em Spring Boot.
+- **SpringBoot** - Criação de APIs RESTful completas para os módulos de empresas e funcionários, desde o mapeamento de entidades até as camadas Controller, Service e Repository. Documentação dos endpoints da API utilizando Swagger. Configuração de testes automatizados com JUnit e integração com o banco de dados via JPA/Hibernate.
 
-- **SQL** - Responsável pela modelagem, manutenção e administração do banco de dados do sistema, hospedado em ambiente cloud (Supabase). Desenvolvimento de scripts SQL, views, triggers e rotinas de integridade referencial. Execução de consultas otimizadas e ajustes em relacionamentos entre tabelas conforme a evolução do projeto. Garantia da coerência e consistência dos dados, além de melhorias contínuas na estrutura do banco.
+- **SQL** - Criação do modelo conceitual do banco de dados, definindo entidades como Funcionários, Empresas, Cargos e Registros de Ponto. Implementação do esquema físico em PostgreSQL hospedado no Supabase, com scripts de criação de tabelas, chaves e restrições de integridade. Execução de consultas otimizadas e ajustes nos relacionamentos conforme a evolução do projeto.
 
-- **Git** - Gerenciamento completo do versionamento do projeto, utilizando submódulos para separar o back-end e o front-end de forma organizada. Controle de branches conforme boas práticas (main, develop, feature, hotfix), além de análise e revisão de pull requests, resolução de conflitos de merge e padronização dos commits. Adoção de um fluxo de versionamento colaborativo para garantir estabilidade, rastreabilidade e integração contínua entre as partes do sistema.
+- **Git** - Configuração do `.gitignore` do projeto e gerenciamento completo do versionamento, utilizando submódulos para separar back-end e front-end. Revisão de Pull Requests, resolução de conflitos de merge e padronização de commits, adotando um fluxo colaborativo com branches organizadas (main, develop, feature, hotfix).
 
 ### Soft Skills
 
-- **Comunicação** - Capacidade de estabelecer uma comunicação clara e objetiva com o cliente, realizando o alinhamento de requisitos do produto e traduzindo essas informações para a equipe técnica. Atuei como elo entre cliente e equipe, garantindo que todos os envolvidos compreendessem o escopo, as prioridades e as mudanças durante o desenvolvimento.
+- **Comunicação** - Exercitada na tradução das User Stories em requisitos técnicos claros para a equipe, e na documentação da API no Swagger, que serviu como ponte de entendimento entre front-end e back-end. Atuei como elo entre cliente e equipe, garantindo alinhamento de escopo e prioridades.
 
-- **Trabalho em equipe** - Participação ativa na colaboração entre os membros da equipe, promovendo o compartilhamento de conhecimento técnico e a divisão equilibrada das responsabilidades. Atuei de forma cooperativa, contribuindo para a resolução de problemas e para o avanço coletivo do projeto.
+- **Trabalho em equipe** - Evidenciado nas revisões de código front-end ao final das sprints , onde colaborei com os colegas para manter a qualidade e a consistência do projeto. Compartilhei conhecimento técnico e contribuí para a resolução de problemas de forma cooperativa.
 
-- **Priorização de Tarefas** - Experiência na identificação e priorização de demandas essenciais para o funcionamento do sistema, com foco nas funcionalidades indispensáveis à entrega do MVP (Produto Mínimo Viável). Capacidade de avaliar impacto, urgência e valor de negócio para definir a sequência ideal de execução das tarefas.
+- **Priorização de Tarefas** - Experiência na organização do Backlog, priorizando tarefas como o modelo conceitual do banco e a configuração do gitignore antes das entregas, e identificando correções urgentes como o bug de edição de cargos. Capacidade de avaliar impacto e valor de negócio para definir a sequência de execução.
 
-- **Gestão de Pessoas** - Apoiei o time na distribuição de tarefas, acompanhamento de progresso e gestão de conflitos, buscando sempre manter o equilíbrio entre prazos, qualidade e engajamento. Promovi um ambiente colaborativo e orientado a resultados, favorecendo a produtividade e o alinhamento entre os membros da equipe.
-
-
-
-
-
-
-
+- **Gestão de Pessoas** - Apoiei o time na distribuição de tarefas a partir das User Stories, acompanhando o progresso e garantindo que as entregas estivessem alinhadas com os critérios de DoD e DoR. Promovi um ambiente colaborativo orientado a resultados, favorecendo produtividade e engajamento.
