@@ -1,11 +1,22 @@
 # Carlos Daniel Alves dos Santos
 
 ## Introdução
-Desenvolvedor Full Stack na Pandô Apps, atualmente cursando Tecnólogo em Banco de Dados na
-FATEC São José dos Campos. Tenho experiência em projetos utilizando Java, PHP,
-Laravel, Spring Boot, Vue.js, PostgreSQL, MySQL e Oracle. Atuo com
-foco em boas práticas de desenvolvimento, versionamento com Git/GitHub e qualidade
-de código.
+Desenvolvedor Full-Stack apaixonado por construir aplicações confiáveis, sustentáveis e
+escaláveis.
+
+Minha experiência percorre todo o ciclo de vida do software: desenvolvimento back-end com
+Java/Spring Boot, PHP/Laravel e .NET, construção de interfaces com Vue.js e TypeScript,
+modelagem e otimização de bancos de dados relacionais, testes automatizados e práticas de
+DevOps com Docker, CI/CD e Kubernetes.
+
+Gosto de transformar requisitos de negócio complexos em soluções simples e robustas. Seja no
+desenho de APIs REST, na construção de sistemas corporativos, na otimização de consultas ou na
+melhoria do fluxo de desenvolvimento do time, o foco é sempre entregar software fácil de manter,
+com bom desempenho e que gere valor no longo prazo.
+
+Meus interesses técnicos incluem arquitetura de software, sistemas distribuídos, cloud, DevOps e
+práticas modernas de engenharia. Acredito que bom software nasce de design bem pensado,
+aprendizado contínuo, colaboração e atenção à qualidade, não apenas de escrever código.
 
 ## Contatos
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/darloscaniel)
@@ -13,17 +24,23 @@ de código.
 
 ## Meus Principais Conhecimentos
 
-- Desenvolvimento Back-End: Java (Spring Boot), PHP (Laravel), .NET/C#, autenticação JWT e construção de APIs RESTful.
+- **Desenvolvimento Back-End:** Java (Spring Boot), PHP (Laravel) e .NET/C#, com construção de APIs RESTful, autenticação e autorização com JWT, organização em camadas (Controller, Service, Repository) e integração com serviços e APIs de terceiros.
 
-- Banco de Dados: Modelagem e desenvolvimento com MySQL, PostgreSQL e Supabase.
+- **Desenvolvimento Front-End:** Vue.js 3 (Composition API), TypeScript e JavaScript, com criação de componentes reutilizáveis, consumo de APIs REST e cuidado com usabilidade e consistência visual.
 
-- Desenvolvimento Front-End: Vue.js, JavaScript e TypeScript.
+- **Banco de Dados:** Modelagem conceitual, lógica e física com PostgreSQL, MySQL, Oracle e Supabase. Escrita e otimização de consultas SQL, definição de relacionamentos e restrições de integridade, normalização e mapeamento objeto-relacional com JPA/Hibernate.
 
-- Controle de Versão e Colaboração: Git e GitHub, integração em times ágeis com Scrum e Kanban.
+- **Testes e Qualidade:** Testes unitários e de integração com JUnit, code review, refatoração e atenção a legibilidade, desempenho e manutenibilidade do código.
 
-- Boas Práticas: Testes (JUnit), qualidade de código, usabilidade, desempenho e escalabilidade.
+- **DevOps e Infraestrutura:** Docker para padronização de ambientes, noções de Kubernetes e orquestração de contêineres, pipelines de CI/CD e automação do fluxo de build e entrega.
 
-- Ferramentas de Apoio: IntelliJ IDEA, Visual Studio, VS Code, MySQL Workbench, PgAdmin, DataGrip e Jira.
+- **Arquitetura e Engenharia de Software:** Programação Orientada a Objetos, padrões de projeto, arquitetura em camadas, princípios de código limpo e interesse por sistemas distribuídos e computação em nuvem.
+
+- **Controle de Versão e Colaboração:** Git e GitHub com fluxo de branches (main, develop, feature, hotfix), Pull Requests, resolução de conflitos e commits rastreáveis. Atuação em times ágeis com Scrum e Kanban, incluindo experiência como Product Owner.
+
+- **Documentação:** Swagger/OpenAPI para documentação de APIs, escrita de User Stories, definição de critérios de DoD e DoR e manutenção da documentação técnica dos projetos.
+
+- **Ferramentas de Apoio:** IntelliJ IDEA, Visual Studio, VS Code, MySQL Workbench, PgAdmin, DataGrip, Postman, Figma e Jira.
 
 # Projetos
 
@@ -96,7 +113,13 @@ Contribuí com a implementação e organização das funcionalidades centrais da
 
 ### Soft Skills
 
-- _A definir._
+- **Trabalho em equipe** - Primeiro contato com o desenvolvimento colaborativo, em que cada integrante era responsável por um conjunto de operações que precisavam conviver dentro da mesma aplicação. A estruturação do menu principal exigiu alinhar com os colegas como cada função seria chamada, garantindo que as entregas individuais formassem um produto único e coerente.
+
+- **Adaptabilidade** - A migração das primeiras sprints em VisualG para TypeScript exigiu reescrever funcionalidades já concluídas, como o cálculo da função de segundo grau, em uma linguagem e um paradigma diferentes. Lidar com mudanças de direção no meio do projeto, sem perder o que já havia sido validado, foi um dos principais aprendizados do semestre.
+
+- **Organização e autogestão** - Com o trabalho dividido em sprints, foi necessário planejar o próprio tempo, quebrar as tarefas em entregas menores e manter o versionamento em dia com commits descritivos, para que o andamento das atividades ficasse visível para o restante do time.
+
+- **Atenção ao usuário** - O tratamento de entradas inválidas e a limpeza do terminal a cada operação nasceram da percepção de que o código precisava funcionar também para quem não o escreveu. Foi o início de um olhar voltado à experiência de uso, e não apenas ao funcionamento técnico.
 
 </details>
 
@@ -188,7 +211,15 @@ Atuei na conexão entre as telas e o banco de dados MySQL, implementando os DAOs
 
 ### Soft Skills
 
-- _A definir._
+- **Comunicação técnica** - As telas de avaliação e os DAOs de persistência eram desenvolvidos por pessoas diferentes, o que exigiu alinhar previamente os contratos entre as camadas. Explicar o que cada tela esperava do banco, e vice-versa, reduziu retrabalho e acelerou a integração das funcionalidades ao longo das sprints.
+
+- **Resolução de problemas** - Situações como o limitador de pontuação por sprint, a inconsistência nas datas de início e término das sprints e as falhas na exibição das listagens exigiram investigar a origem do comportamento antes de corrigir, percorrendo o caminho da tela até a consulta no banco para entender onde o erro realmente começava.
+
+- **Colaboração e resolução de conflitos** - A resolução de conflitos de merge ao integrar as contribuições do time demandou cuidado para preservar o trabalho dos colegas e validar com eles quais alterações deveriam ser mantidas, evitando sobrescrever entregas e perder histórico.
+
+- **Disciplina e padronização** - A adoção das convenções de nomenclatura definidas pelo time, incluindo a renomeação de classes já existentes, e a manutenção do README do projeto reforçaram a noção de que a consistência do código e da documentação é uma responsabilidade coletiva, e não um detalhe secundário.
+
+- **Visão de produto** - A modelagem das entidades e dos critérios de avaliação só fez sentido depois de compreender a rotina de quem usaria o sistema. Esse exercício de traduzir uma necessidade real em estrutura de dados e telas foi a base para a atuação como Product Owner no semestre seguinte.
 
 </details>
 
@@ -320,6 +351,8 @@ Fui responsável pela organização e manutenção do repositório do projeto no
 
 - **Gestão de Pessoas** - Apoiei o time na distribuição de tarefas a partir das User Stories, acompanhando o progresso e garantindo que as entregas estivessem alinhadas com os critérios de DoD e DoR. Promovi um ambiente colaborativo orientado a resultados, favorecendo produtividade e engajamento.
 
+- **Negociação e gestão de expectativas** - Como principal ponto de contato com a Altave, participei do alinhamento entre o que o cliente esperava e o que era viável entregar dentro de cada sprint. Renegociar escopo, explicar limitações técnicas em linguagem de negócio e sustentar as prioridades definidas no Backlog foram habilidades desenvolvidas a partir da base de comunicação e colaboração construída nos dois primeiros semestres.
+
 </details>
 
 <details>
@@ -427,6 +460,86 @@ Contribuí com componentes do dashboard ligados aos indicadores e à integraçã
 - **Git** - Versionamento das entregas nos repositórios `tms-server` e `tms-client`, com branches por funcionalidade e commits descritivos rastreáveis aos cards do Jira (TMS-XX), facilitando o acompanhamento das tarefas ao longo das sprints.
 
 - **GitHub** - Hospedagem dos submódulos do projeto, gestão das Pull Requests e acompanhamento do histórico de alterações ao longo do semestre.
+
+### Soft Skills
+
+- **Autonomia** - Assumi de ponta a ponta a integração com o Telegram, da configuração do bot ao fluxo de vinculação do usuário, em uma frente que nenhum integrante do time dominava. Conduzir uma entrega inteira sem depender de direcionamento constante foi a evolução natural após a experiência de coordenação vivida no semestre anterior.
+
+- **Aprendizado contínuo** - Docker, Telegram Bot API e Oracle eram tecnologias novas para mim no início do projeto. Estudar a documentação, validar hipóteses em pequenas provas de conceito e só então aplicar no sistema tornou-se um método de trabalho, e não mais uma reação pontual a uma dificuldade.
+
+- **Resolução de problemas complexos** - A correção da conexão com o banco e do mapeamento das entidades que gerava inconsistências nos `region_indicators` exigiu isolar o problema em meio a várias camadas até encontrar a causa real, em vez de tratar apenas o sintoma visível na aplicação.
+
+- **Visão sistêmica** - Atuar simultaneamente no back-end, no front-end, no banco de dados, no ambiente de execução e na integração externa permitiu enxergar como uma decisão em uma camada se propaga pelas demais, antecipando impactos antes que virassem retrabalho para o time.
+
+- **Maturidade de processo** - A rastreabilidade dos commits em relação aos cards do Jira (TMS-XX), nos repositórios `tms-server` e `tms-client`, tornou o andamento das tarefas transparente para todo o time e facilitou o acompanhamento das sprints, consolidando a disciplina de processo construída desde os primeiros semestres.
+
+</details>
+
+<details>
+<summary><strong>2026-1 (5º Semestre) — A definir</strong></summary>
+
+<br>
+
+_Descrição do projeto a ser preenchida._
+
+<div align="center">
+<table>
+  <tr>
+    <td><!-- <img src="assets/5_semestre/imagem-1.png" alt="" width="450" /> --></td>
+    <td><!-- <img src="assets/5_semestre/imagem-2.png" alt="" width="450" /> --></td>
+  </tr>
+</table>
+</div>
+
+<!-- [REPOSITÓRIO](url-do-repositorio) -->
+
+### Tecnologias Utilizadas
+
+- _A definir._
+
+### Contribuições Pessoais
+
+- _A definir._
+
+### Hard Skills
+
+- _A definir._
+
+### Soft Skills
+
+- _A definir._
+
+</details>
+
+<details>
+<summary><strong>2026-2 (6º Semestre) — A definir</strong></summary>
+
+<br>
+
+_Descrição do projeto a ser preenchida._
+
+<div align="center">
+<table>
+  <tr>
+    <td><!-- <img src="assets/6_semestre/imagem-1.png" alt="" width="450" /> --></td>
+    <td><!-- <img src="assets/6_semestre/imagem-2.png" alt="" width="450" /> --></td>
+  </tr>
+</table>
+</div>
+
+<!-- [REPOSITÓRIO](url-do-repositorio) -->
+
+### Tecnologias Utilizadas
+
+- _A definir._
+
+### Contribuições Pessoais
+
+- _A definir._
+
+### Hard Skills
+
+- _A definir._
 
 ### Soft Skills
 
