@@ -5,9 +5,9 @@ Desenvolvedor Full-Stack apaixonado por construir aplicações confiáveis, sust
 escaláveis.
 
 Minha experiência percorre todo o ciclo de vida do software: desenvolvimento back-end com
-Java/Spring Boot, PHP/Laravel e .NET, construção de interfaces com Vue.js e TypeScript,
-modelagem e otimização de bancos de dados relacionais, testes automatizados e práticas de
-DevOps com Docker, CI/CD e Kubernetes.
+Java/Spring Boot, Python/Django, PHP/Laravel e .NET, construção de interfaces com Vue.js e
+TypeScript, modelagem e otimização de bancos de dados relacionais, testes automatizados e
+práticas de DevOps com Docker, CI/CD e Kubernetes.
 
 Gosto de transformar requisitos de negócio complexos em soluções simples e robustas. Seja no
 desenho de APIs REST, na construção de sistemas corporativos, na otimização de consultas ou na
@@ -24,19 +24,19 @@ aprendizado contínuo, colaboração e atenção à qualidade, não apenas de es
 
 ## Meus Principais Conhecimentos
 
-- **Desenvolvimento Back-End:** Java (Spring Boot), PHP (Laravel) e .NET/C#, com construção de APIs RESTful, autenticação e autorização com JWT, organização em camadas (Controller, Service, Repository) e integração com serviços e APIs de terceiros.
+- **Desenvolvimento Back-End:** Java (Spring Boot), Python (Django REST Framework), PHP (Laravel) e .NET/C#, com construção de APIs RESTful, autenticação e autorização com JWT, organização em camadas (Controller, Service, Repository) e integração com serviços e APIs de terceiros.
 
 - **Desenvolvimento Front-End:** Vue.js 3 (Composition API), TypeScript e JavaScript, com criação de componentes reutilizáveis, consumo de APIs REST e cuidado com usabilidade e consistência visual.
 
-- **Banco de Dados:** Modelagem conceitual, lógica e física com PostgreSQL, MySQL, Oracle e Supabase. Escrita e otimização de consultas SQL, definição de relacionamentos e restrições de integridade, normalização e mapeamento objeto-relacional com JPA/Hibernate.
+- **Banco de Dados:** Modelagem conceitual, lógica e física com PostgreSQL, MySQL, Oracle e Supabase. Escrita e otimização de consultas SQL, definição de relacionamentos e restrições de integridade, normalização, mapeamento objeto-relacional com JPA/Hibernate e noções de modelagem dimensional para Data Warehouse.
 
-- **Testes e Qualidade:** Testes unitários e de integração com JUnit, code review, refatoração e atenção a legibilidade, desempenho e manutenibilidade do código.
+- **Testes e Qualidade:** Testes unitários e de integração com JUnit, pytest e Vitest, testes ponta a ponta com Playwright, análise estática com SonarCloud, code review, refatoração e atenção a legibilidade, desempenho e manutenibilidade do código.
 
-- **DevOps e Infraestrutura:** Docker para padronização de ambientes, noções de Kubernetes e orquestração de contêineres, pipelines de CI/CD e automação do fluxo de build e entrega.
+- **DevOps e Infraestrutura:** Docker para padronização de ambientes, noções de Kubernetes e orquestração de contêineres, pipelines de CI/CD com GitHub Actions e automação do fluxo de build, release e deploy.
 
 - **Arquitetura e Engenharia de Software:** Programação Orientada a Objetos, padrões de projeto, arquitetura em camadas, princípios de código limpo e interesse por sistemas distribuídos e computação em nuvem.
 
-- **Controle de Versão e Colaboração:** Git e GitHub com fluxo de branches (main, develop, feature, hotfix), Pull Requests, resolução de conflitos e commits rastreáveis. Atuação em times ágeis com Scrum e Kanban, incluindo experiência como Product Owner.
+- **Controle de Versão e Colaboração:** Git e GitHub com fluxo de branches (main, develop, feature, hotfix), Pull Requests, resolução de conflitos e commits rastreáveis. Atuação em times ágeis com Scrum e Kanban, incluindo experiência como Product Owner e Scrum Master.
 
 - **Documentação:** Swagger/OpenAPI para documentação de APIs, escrita de User Stories, definição de critérios de DoD e DoR e manutenção da documentação técnica dos projetos.
 
@@ -223,8 +223,8 @@ Atuei na conexão entre as telas e o banco de dados MySQL, implementando os DAOs
 
 </details>
 
-<details open>
-<summary><strong>2025-1 (3º Semestre) —  Pontual.</strong></summary>
+<details>
+<summary><strong>2025-1 (3º Semestre) — Pontual.</strong></summary>
 
 <br>
 
@@ -234,7 +234,7 @@ Projeto desenvolvido para empresa parceira Altave, empresa com foco em monitoram
 O objetivo do projeto foi criar uma aplicação web que permita o monitoramento de funcionários de empresas terceiras em uma determinada área de manutenção.
 \
 \
-Foi entregue um sistema completo com capacidade de gerenciar os funcionarios cadastrados, as empresas, os usarios do sistema e os registros de ponto dos funcionarios, além da funcionalidade de exportar relatorios.
+Foi entregue um sistema completo com capacidade de gerenciar os funcionários cadastrados, as empresas, os usuários do sistema e os registros de ponto dos funcionários, além da funcionalidade de exportar relatórios.
 
 <div align="center">
 <table>
@@ -476,38 +476,135 @@ Contribuí com componentes do dashboard ligados aos indicadores e à integraçã
 </details>
 
 <details>
-<summary><strong>2026-1 (5º Semestre) — A definir</strong></summary>
+<summary><strong>2026-1 (5º Semestre) — SCAR (Strategic Cost Analytics)</strong></summary>
 
 <br>
 
-_Descrição do projeto a ser preenchida._
+Projeto desenvolvido para a empresa parceira SIATT (Sistemas Integrados de Alto Teor Tecnológico), empresa brasileira do setor de defesa especializada em sistemas embarcados críticos e integração de alta tecnologia.
+\
+\
+O objetivo do projeto foi construir o SCAR (Sistema de Controle e Acompanhamento de Recursos), uma solução analítica baseada em Data Warehouse para consolidar e visualizar os custos estratégicos de projetos, reunindo dados de materiais, horas técnicas, projetos, programas e orçamento.
+\
+\
+Foi entregue uma aplicação web completa, com dashboard executivo, análises de materiais e de horas técnicas, visão consolidada de custos, orçamento e saúde financeira dos projetos, importação de dados via CSV, exportação para CSV e Excel, trilha de auditoria das cargas e controle de acesso por perfil, sustentada por uma esteira de integração e entrega contínuas.
 
 <div align="center">
 <table>
   <tr>
-    <td><!-- <img src="assets/5_semestre/imagem-1.png" alt="" width="450" /> --></td>
-    <td><!-- <img src="assets/5_semestre/imagem-2.png" alt="" width="450" /> --></td>
+    <td><img src="assets/5_semestre/scar-login.png" alt="Tela de login do SCAR." width="450" /></td>
+    <td><img src="assets/5_semestre/scar-materiais.png" alt="Tela de análise de materiais do SCAR." width="450" /></td>
+  </tr>
+  <tr>
+    <td><img src="assets/5_semestre/scar-saude-financeira.png" alt="Saúde financeira dos projetos no SCAR." width="450" /></td>
+    <td><img src="assets/5_semestre/scar-auditoria.png" alt="Tela de auditoria e importação de dados do SCAR." width="450" /></td>
   </tr>
 </table>
 </div>
 
-<!-- [REPOSITÓRIO](url-do-repositorio) -->
+[REPOSITÓRIO](https://github.com/Steam-Ducks/strategic-cost-analytics)
 
 ### Tecnologias Utilizadas
 
-- _A definir._
+- **Python** - Linguagem utilizada no desenvolvimento do back-end e das rotinas de carga e transformação dos dados.
+- **Django / Django REST Framework** - Framework utilizado para a construção da API REST que expõe os indicadores analíticos.
+- **PostgreSQL** - SGBD utilizado como camada de persistência do Data Warehouse, organizado em camadas bronze, silver e gold.
+- **Vue.js 3** - Framework utilizado no desenvolvimento da interface da aplicação web.
+- **TypeScript** - Linguagem utilizada no front-end para tipagem estática e organização do código.
+- **Chart.js** - Biblioteca utilizada na construção dos gráficos dos dashboards.
+- **Docker** - Utilizado para padronizar os ambientes de desenvolvimento, homologação e produção.
+- **GitHub Actions** - Plataforma utilizada nas esteiras de integração contínua, release e deploy.
+- **SonarCloud** - Ferramenta de análise estática utilizada para acompanhar cobertura, duplicação e qualidade do código.
+- **Pytest, Vitest e Playwright** - Ferramentas utilizadas nos testes unitários, de integração e ponta a ponta.
+- **Git** - Ferramenta de controle de versão e colaboração em equipe, mantendo o histórico de alterações do código.
+- **GitHub** - Plataforma onde os repositórios do projeto foram hospedados.
 
 ### Contribuições Pessoais
 
-- _A definir._
+**Scrum Master :**
+
+Atuei como Scrum Master da equipe ao longo do semestre, sendo responsável por manter o processo funcionando e remover os impedimentos do time. Minhas responsabilidades incluíram:
+
+- Condução das cerimônias das sprints e acompanhamento do andamento das tarefas junto aos integrantes da equipe.
+
+- Apoio ao Product Owner na organização das entregas de cada sprint, alinhadas aos critérios de DoR e DoD definidos pelo time.
+
+- Fechamento das sprints com a integração da branch `develop` na `main` dos repositórios `sca-server` e `sca-client`, garantindo que a versão entregue ao cliente estivesse validada.
+
+**DevOps e Integração Contínua :**
+
+Fui responsável pela construção e manutenção da esteira de CI/CD dos repositórios de back-end e front-end. As principais entregas foram:
+
+- Criação dos workflows iniciais de CI no GitHub Actions para os dois repositórios, validando cada Pull Request aberta para a `develop` com lint, verificação de formatação, checagem de tipos, testes automatizados e build.
+
+- Implementação do workflow de release agendado, que integra a `develop` na `main` nas datas de entrega de cada sprint após a análise de qualidade no SonarCloud.
+
+- Configuração do SonarCloud nos dois repositórios, com geração dos relatórios de cobertura consumidos pela análise.
+
+- Implementação da verificação automática do padrão de nomes de branch e de mensagens de commit (`<type>(SCA-NNN): <description>`), bloqueando Pull Requests fora do padrão adotado pelo time.
+
+- Automação da sincronização dos submódulos: a cada atualização da `main` no `sca-server` ou no `sca-client`, um workflow notifica o repositório principal, que atualiza o submódulo correspondente automaticamente.
+
+- Ajuste da esteira para executar os testes ponta a ponta (Playwright) contra a build de produção do front-end, e não contra o servidor de desenvolvimento.
+
+- Revisão dos workflows de CI, release e deploy na reta final do projeto: unificação do módulo de configurações de teste, remoção de jobs duplicados, correção das regras de auto-merge e restrição das permissões do token por job.
+
+- Correção dos workflows de deploy automático em VPS e da build de produção do front-end (`Dockerfile.prod`, `docker-compose.prod.yml` e variáveis de ambiente).
+
+**Estrutura dos Projetos :**
+
+- Criação da estrutura inicial do back-end (Django, Django REST Framework, Docker e Docker Compose) e do front-end (Vue.js 3, TypeScript, ESLint, Vitest e Playwright), servindo de base para o desenvolvimento do time.
+
+- Escrita do guia de organização do back-end, descrevendo a estrutura por componentes, a criação de novos apps e o padrão de nomenclatura e localização dos testes.
+
+**Front-end (Vue.js 3 / TypeScript) :**
+
+- Desenvolvimento da estrutura das telas de Dashboard principal, Consolidado e Auditoria, com os composables responsáveis pela montagem dos gráficos em Chart.js.
+
+- Implementação dos testes unitários das três telas com Vitest e do teste ponta a ponta de navegação com Playwright.
+
+**Qualidade e Arquitetura :**
+
+- Elaboração de um relatório técnico de arquitetura, duplicação e testes do back-end, convertido em um backlog priorizado de refatoração (centralização do tratamento de datas, padronização dos filtros, view base para as listagens e metas de cobertura).
+
+- Correções pontuais de integração entre as camadas, como o endpoint de ingestão da camada bronze e a URL da API consumida pelo front-end.
+
+**Versionamento :**
+
+- Versionamento das próprias entregas nos repositórios `sca-server` e `sca-client`, com commits rastreáveis aos cards do board (SCA-NNN e DEVOPS-NNN), e organização do repositório principal com os dois projetos como submódulos.
 
 ### Hard Skills
 
-- _A definir._
+- **GitHub Actions** - Construção da esteira de CI/CD dos dois repositórios: validação de Pull Requests, release agendado por sprint, verificação de padrão de branch e commit, deploy automático, testes de fumaça pós-deploy e sincronização de submódulos entre repositórios. Uso de jobs encadeados, serviços de banco de dados no pipeline, artefatos de relatório e permissões de token restritas por job.
+
+- **SonarCloud** - Configuração da análise estática do back-end e do front-end, integrando os relatórios de cobertura do `pytest` e do Vitest e acompanhando indicadores de cobertura, duplicação, confiabilidade e manutenibilidade a cada release.
+
+- **Docker** - Padronização dos ambientes com Docker e Docker Compose desde a estrutura inicial dos projetos, incluindo a correção da build de produção do front-end e dos arquivos de composição utilizados no deploy.
+
+- **Python / Django** - Estruturação inicial do projeto Django com Django REST Framework, organização por componentes (views, serializers, selectors e testes), configuração dos módulos de settings por ambiente e análise da arquitetura do back-end para apontar duplicações e oportunidades de refatoração.
+
+- **Vue.js 3** - Desenvolvimento das telas de Dashboard, Consolidado e Auditoria com a Composition API, separando a lógica de montagem dos gráficos em composables reutilizáveis.
+
+- **TypeScript** - Aplicação de tipagem estática nas telas, composables e testes do front-end, garantindo consistência dos dados exibidos nos gráficos e tabelas.
+
+- **Testes Automatizados** - Testes unitários de componentes e telas com Vitest, testes ponta a ponta com Playwright executados contra a build de produção e integração dos testes de back-end com `pytest` e PostgreSQL na esteira de CI.
+
+- **PostgreSQL / Data Warehouse** - Contato com modelagem dimensional (tabelas fato e dimensão) e com a arquitetura de dados em camadas bronze, silver e gold, incluindo a criação dos schemas e a execução das migrações no pipeline.
+
+- **Git** - Definição e automação do fluxo de versionamento do time, com branches por card, validação automática do padrão de commits, integração da `develop` na `main` a cada sprint e uso de submódulos para separar back-end e front-end.
+
+- **GitHub** - Hospedagem dos repositórios do projeto, gestão das Pull Requests com merge automático condicionado à aprovação da esteira e configuração dos segredos e permissões utilizados pelos workflows.
 
 ### Soft Skills
 
-- _A definir._
+- **Liderança e facilitação** - Atuar como Scrum Master exigiu deixar de olhar apenas para as próprias tarefas e passar a cuidar do andamento do time como um todo, acompanhando as entregas e removendo impedimentos. Depois da experiência como Product Owner no 3º semestre, foi a oportunidade de enxergar o processo pelo lado de quem sustenta a cadência da equipe.
+
+- **Maturidade de processo** - A padronização de branches e commits deixou de depender de combinados e passou a ser verificada automaticamente a cada Pull Request. Transformar acordos do time em regras da esteira foi a evolução natural da disciplina de versionamento construída nos semestres anteriores.
+
+- **Responsabilidade e senso de dono** - A esteira de CI/CD era o caminho obrigatório de toda entrega do time, de modo que uma falha no pipeline bloqueava todos os integrantes. Assumir essa frente exigiu resposta rápida e cuidado redobrado a cada alteração nos workflows.
+
+- **Resolução de problemas sob pressão** - Na reta final do projeto, os ajustes de deploy, da build de produção e das regras de merge precisaram ser investigados e corrigidos em sequência, às vésperas da entrega, isolando a causa de cada falha sem interromper o trabalho do restante da equipe.
+
+- **Visão crítica e comunicação técnica** - O relatório técnico do back-end exigiu analisar o código escrito pelos colegas, separar problemas reais de falsos positivos e apresentar os achados como um backlog priorizado e acionável, e não como uma lista de críticas.
 
 </details>
 
