@@ -476,7 +476,7 @@ Contribuí com componentes do dashboard ligados aos indicadores e à integraçã
 </details>
 
 <details>
-<summary><strong>2026-1 (5º Semestre) — SCAR (Strategic Cost Analytics)</strong></summary>
+<summary><strong>2026-1 (5º Semestre) — SCAR </summary>
 
 <br>
 
